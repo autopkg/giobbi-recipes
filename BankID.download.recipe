@@ -40,7 +40,7 @@
 					<string>Apple Root CA</string>
 				</array>
 				<key>input_path</key>
-				<string>%pathname%</string>
+				<string>%pathname%/BankID.app</string>
 			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
