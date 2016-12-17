@@ -5,14 +5,14 @@
     <key>Description</key>
     <string>Downloads and installs the latest BankID.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.install.bankid</string>
+    <string>com.github.giobbi.pkg.bankid</string>
     <key>Input</key>
     <dict>
     </dict>
     <key>MinimumVersion</key>
     <string>0.4.2</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.bankid</string>
+    <string>com.github.giobbi.pkg.bankid</string>
     <key>Process</key>
     <array>
         <dict>
