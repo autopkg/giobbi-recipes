@@ -9,7 +9,7 @@
 
     </string>
     <key>Identifier</key>
-    <string>com.github.autopkg.munki.bankid</string>
+    <string>com.github.giobbi.munki.bankid</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
@@ -33,7 +33,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.bankid</string>
+    <string>com.github.giobbi.download.bankid</string>
     <key>Process</key>
     <array>
         <dict>
