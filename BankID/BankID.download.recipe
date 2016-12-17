@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the current release version of BankID</string>
     <key>Identifier</key>
-    <string>com.github.giobbi.pkg.bankid</string>
+    <string>com.github.giobbi.download.bankid</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
