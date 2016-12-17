@@ -21,7 +21,7 @@
             	<key>url</key>
             	<string>https://install.bankid.com/FileDownloader?fileId=Mac</string>
                 <key>filename</key>
-                <string>%NAME%.dmg</string>
+                <string>%NAME%.pkg</string>
             </dict>
             <key>Processor</key>
             <string>URLDownloader</string>
