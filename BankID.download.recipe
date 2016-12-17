@@ -40,11 +40,8 @@
         <key>expected_authority_names</key>
         <array>
             <string>Developer ID Installer: Finansiell ID-Teknik BID AB</string>
-            <string>SHA1 fingerprint: 2E C6 00 5A 37 3B 86 FE FE 02 40 25 6A 26 F9 4A 0A 25 C1 14</string>
             <string>Developer ID Certification Authority</string>
-            <string>SHA1 fingerprint: 3B 16 6C 3B 7D C4 B7 51 C9 FE 2A FA B9 13 56 41 E3 88 E1 86</string>
             <string>Apple Root CA</string>
-            <string>SHA1 fingerprint: 61 1E 5B 66 2C 59 3A 08 FF 58 D1 4A E2 24 52 D1 98 DF 6C 60</string>
         </array>
     </dict>
 </dict>
