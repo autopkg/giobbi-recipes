@@ -3,22 +3,11 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the current release version of BankID and imports into Munki.
+    <string>
+    
+    Downloads the current release version of BankID and imports into Munki.
 
-Postinstall script extracts the DropboxHelperInstaller and sets the setuid 
-bit so that it can perform its setup tasks as root without asking for admin 
-privileges.
-
-Dropbox will attempt to update periodically, and if it does not have permission to 
-overwrite the bundle at /Applications/Dropbox.app, it will instead download 
-the updated version to ~/Library/Dropbox, and run this version as long as it 
-is more recent than the copy in /Applications.
-
-This recipe assumes the user cannot write to the installed version at
-/Applications/Dropbox.app, and therefore merges an installs key with a versionless
-Dropbox file item, so that if a newer version of Dropbox is ever imported
-into the repo, it will not trigger updates on clients whose newer version is only
-located in their user's home folder.</string>
+    </string>
     <key>Identifier</key>
     <string>com.github.autopkg.munki.bankid</string>
     <key>Input</key>
@@ -26,7 +15,7 @@ located in their user's home folder.</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/BankID</string>
         <key>NAME</key>
-        <string>BankID/string>
+        <string>BankID</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
