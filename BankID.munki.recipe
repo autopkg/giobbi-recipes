@@ -38,13 +38,13 @@ when importing a delta update. Choosing to import delta updates will likely
 require additional work on the part of the admin (for example, using an
 installcheck_script).</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.munki.MSSkypeForBusiness</string>
+    <string>com.github.autopkg.munki.BankID</string>
     <key>MinimumVersion</key>
     <string>0.4.2</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Bank</string>ID
+        <string>BankID</string>ID
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps</string>
         <key>munki_required_update_name</key>
@@ -53,7 +53,7 @@ installcheck_script).</string>
         <dict>
             <key>blocking_applications</key>
             <array>
-                <string>BankID
+                <string>BankID</string>
             </array>
             <key>catalogs</key>
             <array>
